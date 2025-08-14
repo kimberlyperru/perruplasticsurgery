@@ -1126,3 +1126,18 @@ section
     object-fit: cover;         /* Ensures the image fills the box without distortion */
     border-radius: 8px;        /* Optional: for rounded corners */
 }
+
+.team_image img {
+    width: 200px; /* or any uniform size you want */
+    height: 200px;
+    object-fit: cover; /* keeps aspect ratio but crops excess */
+    border-radius: 50%; /* optional for circle images */
+}
+
+.team_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%; /* ensures consistent height for all team items */
+}
